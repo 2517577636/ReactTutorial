@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* -----------------------biliCSS----------------------- */
+ul{
+  list-style: none;
+}
+
+.container{
+  /* padding: 1rem 2rem; */
+  width: 45rem;
+  padding: 1rem 1.5rem;
+  margin: 10px auto;
+  background: #ecf0f1;
+}
+
+.view{
+  width: 100%;
+  height: 12rem;
+  background: #fff;
+}
+
+.container header .title{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.container main{
+  margin-top: 1rem;
+}
+
+.container main .bili .bl-titles{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.container main .bili .bl-titles  .bl-t-item{
+  /* font-size:  */
+  flex: 1;
+  text-align: center;
+  /* align-self: center; */
+  /* flex */
+}
+
+.container main .bili .bl-content{
+  margin-top: 1rem;
+}
+
+.container main .bili .bl-content .bl-c-item{
+  display: flex;
+  justify-content: space-between;
+  padding: .3rem;
+}
+
+.container main .bili .bl-content  .bl-c-item:nth-child(odd){
+  background: cornsilk;
+}
+
+.container main .bili .bl-content  .bl-c-item:nth-child(even){
+  background: #d35400;
+}
+
+.container main .bili .bl-content .bl-c-item div{
+  flex: 1;
+  text-align: center;
+}
+/* --------x---------------bili----------------x------- */
